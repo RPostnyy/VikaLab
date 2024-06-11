@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">NewLab9</string>
+    <string name="Label">MiNiGames</string>
+    <string name="register">Регистрация</string>
+    <string name="sign_in">Войти</string>
+    <string name="new_to_here">Впервые здесь?</string>
+    <string name="login">Войдите</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="name">Имя</string>
+    <string name="secondname">Фамилия</string>
+    <string name="repeartPasswors">Повторите пароль</string>
+    <string name="dateOfBD">Дата рождения</string>
+    <string name="photo_avatar">Добавить фото</string>
+    <string name="save">Сохранить</string>
+    <string name="back">Вернуться</string>
+    <string name="navigation_drawer_open">Открыть навигационное меню</string>
+    <string name="navigation_drawer_close">Закрыть навигационное меню</string>
+    <string name="change_Avatar">Сменить фотографию</string>
+    <string name="Save_Changes">Сохранить изменения</string>
+    <string name="exit">Выйти</string>
+
+    <string-array name="regions_array">
+        <item>Moscow</item>
+        <item>Saint Petersburg</item>
+        <item>Novosibirsk</item>
+        <item>Yekaterinburg</item>
+        <item>Nizhny Novgorod</item>
+        <!-- Add other regions as needed -->
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

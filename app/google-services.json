@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "351261491727",
+    "firebase_url": "https://newdbmobile-default-rtdb.firebaseio.com",
+    "project_id": "newdbmobile",
+    "storage_bucket": "newdbmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351261491727:android:98f779be42137373ea597a",
+        "android_client_info": {
+          "package_name": "com.example.newlab9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr_C1jwHq3PoUaoAgeXJ3xhXw7KD8FJk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
