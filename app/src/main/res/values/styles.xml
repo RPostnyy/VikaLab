@@ -1,0 +1,9 @@
+<resources>
+
+
+    <!-- Add this new style for white text in Spinner -->
+    <style name="WhiteSpinnerTextStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

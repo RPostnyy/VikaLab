@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_weather"
+            android:title="Weather" />
+        <item
+            android:id="@+id/nav_music"
+            android:title="Music" />
+        <item
+            android:id="@+id/nav_games"
+            android:title="Games"/>
+        <item
+            android:id="@+id/nav_articles"
+            android:title="Статьи" />
+        <item
+            android:id="@+id/nav_admin_panel"
+            android:title="Админ панель"
+            android:visible="false"/>
+    </group>
+</menu>
