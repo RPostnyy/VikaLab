@@ -168,6 +168,7 @@ public class RegisterActivity extends AppCompatActivity {
         userInfo.put("userName", binding.enterName.getText().toString());
         userInfo.put("userSecondName", binding.enterSecondName.getText().toString());
         userInfo.put("dateOfBD", binding.enterDate.getText().toString());
+        userInfo.put("role", "user"); // Добавьте роль пользователя. Админа назначаете вручную через Firebase Console.
 
         if (avatarUri != null) {
             uploadAvatar(uid, userInfo);
@@ -175,6 +176,7 @@ public class RegisterActivity extends AppCompatActivity {
             saveToDatabase(uid, userInfo);
         }
     }
+
 
     private void uploadAvatar(String uid, HashMap<String, String> userInfo) {
         StorageReference storageReference = FirebaseStorage.getInstance().getReference().child("avatars/" + UUID.randomUUID().toString());
