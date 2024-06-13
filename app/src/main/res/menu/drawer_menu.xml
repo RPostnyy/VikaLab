@@ -2,16 +2,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:title="Home" />
+            android:title="Личный кабинет" />
         <item
             android:id="@+id/nav_weather"
-            android:title="Weather" />
+            android:title="Погода" />
         <item
             android:id="@+id/nav_music"
-            android:title="Music" />
+            android:title="Музыка" />
         <item
             android:id="@+id/nav_games"
-            android:title="Games"/>
+            android:title="Мини игры"/>
         <item
             android:id="@+id/nav_articles"
             android:title="Статьи" />

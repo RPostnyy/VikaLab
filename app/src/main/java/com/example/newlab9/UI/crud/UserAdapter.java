@@ -60,7 +60,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
             holder.btnDeleteUser.setEnabled(false);
         } else {
             holder.btnToggleRole.setEnabled(true);
-            holder.btnToggleRole.setText(user.getRole().equals("admin") ? "Сделать пользователем" : "Сделать админом");
+            holder.btnToggleRole.setText(user.getRole().equals("admin") ? "Сменить роль" : "Сменить роль");
 
             holder.btnToggleRole.setOnClickListener(v -> {
                 // Переключение роли
